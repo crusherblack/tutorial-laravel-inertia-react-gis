@@ -10,6 +10,8 @@ Berikut demo dari project yang akan kita buat:
   allowFullScreen
 />
 
+[![Watch the video](https://img.youtube.com/vi/miyVe80VT4hUte2m/default.jpg)](https://youtu.be/miyVe80VT4hUte2m)
+
 Link Tutorial:
 
 [Part 1 - Tutorial GIS Interaktif Menggunakan Laravel Inertia & React](https://www.tahucoding.com/tutorial/part-1-tutorial-gis-interaktif-menggunakan-laravel-inertia-react)

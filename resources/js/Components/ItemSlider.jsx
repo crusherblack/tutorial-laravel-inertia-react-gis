@@ -3,12 +3,12 @@ import Slider from "react-slick";
 
 const settings = {
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     variableWidth: true,
     pauseOnHover: true,
     swipeToSlide: true,

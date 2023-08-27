@@ -133,15 +133,17 @@ const LocationForm = ({
                 </Transition>
             </div>
 
-            <div className="mt-8">
-                <DangerButton
-                    type="button"
-                    disabled={processing}
-                    onClick={() => handleDeleteLocation(data.id)}
-                >
-                    Delete Location
-                </DangerButton>
-            </div>
+            {isUpdateMode && (
+                <div className="mt-8">
+                    <DangerButton
+                        type="button"
+                        disabled={processing}
+                        onClick={() => handleDeleteLocation(data.id)}
+                    >
+                        Delete Location
+                    </DangerButton>
+                </div>
+            )}
         </form>
     );
 };

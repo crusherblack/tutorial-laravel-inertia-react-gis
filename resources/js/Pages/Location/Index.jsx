@@ -205,7 +205,7 @@ const Location = ({ auth }) => {
         setIsUpdateMode(false);
         setAllLocations(locations);
         reset();
-    }, []);
+    }, [locations]);
 
     return (
         <AuthenticatedLayout
@@ -254,6 +254,7 @@ const Location = ({ auth }) => {
                                             {popupInfo.name}
                                         </h2>
                                         <p>{popupInfo.description}</p>
+                                        <p>Rating: {popupInfo.rating}</p>
                                     </div>
                                     <img
                                         width="100%"
@@ -279,7 +280,7 @@ const Location = ({ auth }) => {
                                 className="mb-4"
                                 onClick={() => setIsCreateMode(true)}
                             >
-                                Tambah Marker
+                                Add New Location
                             </PrimaryButton>
                         )}
 

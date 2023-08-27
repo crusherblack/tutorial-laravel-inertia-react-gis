@@ -26,7 +26,7 @@ class LocationController extends Controller
             'long' => ['required', 'min:4', 'max:100'],
             'name' => ['required', 'min:3', 'max:255'],
             'description' => ['max:500'],
-            'image' => ['required','mimes:jpg,jpeg,png', 'max:4096'],
+            'image' => ['required','mimes:jpg,jpeg,png,avif', 'max:4096'],
             'rating' => ['required'],
         ]);
 
@@ -60,7 +60,7 @@ class LocationController extends Controller
             'long' => ['required', 'min:4', 'max:100'],
             'name' => ['required', 'min:3', 'max:255'],
             'description' => ['max:500'],
-            'image' => ['mimes:jpg,jpeg,png', 'max:4096'],
+            'image' => ['mimes:jpg,jpeg,png,avif', 'max:4096'],
             'rating' => ['required'],
         ]);
 
@@ -100,3 +100,4 @@ class LocationController extends Controller
         return Redirect::route('location.index');
     }
 }
+

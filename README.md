@@ -2,15 +2,7 @@ Pada tutorial kali ini kita akan belajar setup Laravel, Inertia dan React.js, be
 
 Berikut demo dari project yang akan kita buat:
 
-<iframe
-  src="https://www.youtube.com/embed/4Qghkavq2Uw"
-  title="YouTube video player"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowFullScreen
-/>
-
-[![Watch the video](https://img.youtube.com/vi/miyVe80VT4hUte2m/default.jpg)](https://youtu.be/miyVe80VT4hUte2m)
+[![Watch the video](https://img.youtube.com/vi/4Qghkavq2Uw/0.jpg)](https://youtu.be/4Qghkavq2Uw?si=VTAERWvmSseQ2z5F)
 
 Link Tutorial:
 

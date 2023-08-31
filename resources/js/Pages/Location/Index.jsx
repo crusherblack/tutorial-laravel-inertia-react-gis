@@ -223,7 +223,7 @@ const Location = ({ auth }) => {
                         <Map
                             reuseMaps
                             ref={mapRef}
-                            mapboxAccessToken="pk.eyJ1IjoiY3J1c2hlcmJsYWNrIiwiYSI6ImNsOXk3cTZzajAyazYzbnBkbWs0Y3AyNjcifQ.hXpOiJw9u5SzTTbFi-a_zQ"
+                            mapboxAccessToken="YOUR MAPBOX API TOKEN HERE"
                             initialViewState={{
                                 longitude: 106.8291201,
                                 latitude: -6.1836782,
